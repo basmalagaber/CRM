@@ -1,0 +1,60 @@
+name: erp_system
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_screenutil: ^5.9.3
+  provider: ^6.1.2
+  intl: ^0.19.0
+  fl_chart: ^0.69.2
+  url_launcher: ^6.3.2
+  flutter_phone_direct_caller: ^2.2.1
+  image_picker: ^1.2.0
+  cupertino_icons: ^1.0.8
+  excel: ^4.0.6
+  pdf: ^3.11.1
+  file_saver: ^0.2.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: IBMPlexSansArabic
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Thin.ttf
+          weight: 100
+
+        - asset: assets/fonts/IBMPlexSansArabic-ExtraLight.ttf
+          weight: 200
+
+        - asset: assets/fonts/IBMPlexSansArabic-Light.ttf
+          weight: 300
+
+        - asset: assets/fonts/IBMPlexSansArabic-Regular.ttf
+          weight: 400
+
+        - asset: assets/fonts/IBMPlexSansArabic-Medium.ttf
+          weight: 500
+
+        - asset: assets/fonts/IBMPlexSansArabic-SemiBold.ttf
+          weight: 600
+
+        - asset: assets/fonts/IBMPlexSansArabic-Bold.ttf
+          weight: 600
